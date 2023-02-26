@@ -3017,7 +3017,7 @@ mark_2_adr:  	DS      2
 flag_cmd_mode:	DS	1
 ;
 copy_length:	DS	2
-DS      1
+flag_cant_past: DS      1
 ;
 line_length:	DS      1
 flag_edited:	DS	1
